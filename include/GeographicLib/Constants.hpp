@@ -10,7 +10,9 @@
 #if !defined(GEOGRAPHICLIB_CONSTANTS_HPP)
 #define GEOGRAPHICLIB_CONSTANTS_HPP 1
 
+#if !defined(SWIFT_PACKAGE)
 #include <GeographicLib/Config.h>
+#endif
 
 /**
  * @relates GeographicLib::Constants
